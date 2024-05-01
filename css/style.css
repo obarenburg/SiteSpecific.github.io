@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 53, 31, 0)), url(./../imgs/haskal.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+main{
+    position:inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#center{
+    margin-top: 40vh;
+    margin-bottom: auto;
+    color: rgb(255, 255, 255);
+}
+
+#how-to{
+    width: 100%;
+    height: 80vh;
+    margin-top: .5em;
+    border-radius: 1em;
+    background-color: white;
+    text-align: center;
+}
+
+#how-to p{
+    padding-left: 1em;
+    padding-right: 1em
+}
+
+#how-to h1{
+    padding-top: .5em;
+}
+
+#map {
+    border-radius: 1em;
+}
+
+@media(min-width: 590px) {
+    body{
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .5)), url(./../imgs/big.jpg);
+        width: 100%;
+        background-size:cover;
+    }    
+}
